@@ -1,16 +1,6 @@
 {
   "tests": [
     {
-      "name": "Palindrome Error",
-      "setup": "cd src && javac exercise6/Palindrome.java",
-      "run": "cd src && java -ea exercise6.Palindrome",
-      "input": "-1",
-      "output": "AssertionError",
-      "comparison": "included",
-      "timeout": 1,
-      "points": null
-    },
-    {
       "name": "Palindrome 121",
       "setup": "cd src && javac exercise6/Palindrome.java",
       "run": "cd src && java -ea exercise6.Palindrome",
